@@ -1,6 +1,6 @@
 
 public class MergeSort {
-    public static void mergeSort(Integer[] arr, int left, int right) {
+    public static void mergeSort(int[] arr, int left, int right) {
         if (left < right) {
             int mid = (left + right) / 2;
 
@@ -11,12 +11,12 @@ public class MergeSort {
         }
     }
 
-    public static void merge(Integer[] arr, int left, int mid, int right) {
+    public static void merge(int[] arr, int left, int mid, int right) {
         int n1 = mid - left + 1;
         int n2 = right - mid;
 
-        Integer[] L = new Integer[n1];
-        Integer[] R = new Integer[n2];
+        int[] L = new int[n1];
+        int[] R = new int[n2];
 
         for (int i = 0; i < n1; i++)
             L[i] = arr[left + i];
