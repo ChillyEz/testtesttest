@@ -1,2 +1,6 @@
 merge - 10 n ~ 1 000 000 ns
 merge - 10000 n ~ 7 000 000 ns
+
+insertion =1000n ~ 60-70 000 000 ns
+
+insertion - 10 n ~ 900 000 ns
